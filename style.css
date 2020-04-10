@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css?family=Lora|Roboto&display=swap");
+
+@import url("components/container.css");
+@import url("components/banner.css");
+@import url("components/typeform-share button.css");
+
+body {
+ font-family: 'Lora', serif;
+ font-size: 18px;
+ background-color: #1e5d93;
+ color: white;
+}
+
+h1,h2,h3 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+	align-content: center;
+}
+
+
+a:hover {
+	background-color: #221585;
+	font-size: 110%;
+	padding:0px 15px;border-radius:5px
+}
